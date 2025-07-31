@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Bluetooth Durumu"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HC-06'ya Bağlan" />
+
+    <Button
+        android:id="@+id/DataActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Activity" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veri Gönder"
+        android:visibility="gone" /> <!-- Bu buton başlangıçta görünmez olacak -->
+</LinearLayout>
